@@ -7,20 +7,21 @@ The project consists of two main contributions:
 
 ## Data
 The dataset was collected from National Ocenic and Atomospheric Administration at https://www.ncdc.noaa.gov/cdo-web/datatools/findstation
+
 Load data in Pittsburgh was collected from PJM hourly load data at https://dataminer2.pjm.com/feed/hrl_load_metered
 
 ## Training
 Lauch autoencoder training by:
-'''python
+```python
 python main_Autoencoder.py
-'''
+```
 
 Launch Load prediction training without weather conditions:
-'''python
+```python
 python main_RNN_lag.py
-'''
+```
 
 Launch load prediction training without weather condictions:
-'''python
+```python
 python main_RNN_lag_withoutweat.py
-'''
+```
